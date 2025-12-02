@@ -1,0 +1,158 @@
+body {
+    background-image: url(nie.gif);
+    background-repeat: inherit;
+    
+}
+
+form {
+    /*background-color: rgba(134, 28, 134, 0.24);
+    border: 1px solid rgba(134, 28, 134, 0.15) ;*/
+    align-content: center;
+    height: 500px;
+    width: 600px;
+    box-shadow: 0 0 2px 2px black;
+    margin-top: 10%;
+    margin-left: 50% -600px;
+}
+
+p {
+    margin-left: 10px;
+    margin-bottom: 1px;
+
+}
+
+input {
+    margin-left: 10px;
+    border: 1px solid rgb(0, 140, 255);
+    border-radius: 10px;
+    width: 575px;
+    height: 40px;
+    margin-bottom: 25px;
+
+}
+
+input.a {
+    width: 575px;
+    height: 40px;
+    background-image: linear-gradient(pink, blue);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: height 0.25s;
+}
+
+@keyframes suban {
+    0% {
+        width: 575px;
+        height: 40px;
+    }
+
+    100% {
+        width: 575px;
+        height: 60px;
+    }
+}
+
+input.a:hover {
+    background-image: linear-gradient(yellow, orange);
+    height: 60px;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+@keyframes Myanimation1 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: -250px;
+        top: 0px;
+    }
+}
+
+@keyframes Myanimation2 {
+    0% {
+        right: 0px;
+        top: 0px;
+    }
+
+    100% {
+        right: -250;
+        top: 0px;
+    }
+}
+
+div.a {
+    animation-name: Myanimation1;
+    animation-duration: 4s;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: aliceblue;
+
+}
+
+div.b {
+    animation-name: Myanimation2;
+    animation-duration: 4s;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: aliceblue;
+
+}
+
+.s1 {
+    float: left;
+    width: 30%;
+    height: 900px;
+    margin: 40px;
+}
+
+.s2 {
+    float: left;
+    width: 40%;
+    height: 900px;
+
+
+}
+
+input::placeholder {
+    color: rgb(0, 174, 255);
+    font-weight: 550;
+}
+
+.tloxd {
+    background-color: rgba(173, 216, 230, 0.3);
+}
+
+.czerw {
+    color: rgb(255, 0, 0);
+}
+
+.bialy {
+    color: white;
+}
+a:active
+{
+    color: cyan;
+}
+a:hover
+{
+    color: yellow;
+}
+
+a:visited
+{
+    color: rgb(255, 81, 0);
+}
+a:link
+{
+    color: violet;
+}
